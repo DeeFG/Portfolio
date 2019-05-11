@@ -11,72 +11,83 @@
     <title>Profile Portfolio</title>
 </head>
 <style>
+    body {
+        /* background: #fae49e; */
+        border: white 10px solid;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
 
-body{
-    /* background: #fae49e; */
-    border: white 10px solid;
-    width: 100%;
-    height: 100%;
-    margin:0px;
-    padding:0px;
-}
-.jumbotron{
-    background: url("https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_960_720.jpg");
-    background-repeat: no-repeat ;
-    background-size: 100%;
-    height: 600px;
-    padding: px
- 
-}
-#headertext{
-    text-align: center;
-    margin: 0 auto;
-    
-}
+    .jumbotron {
+        background: url("https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_960_720.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 600px;
+        padding: px
+    }
 
+    #headertext {
+        text-align: center;
+        margin: 0 auto;
 
-.container{
-    width: 100%;
-
-}
+    }
 
 
-.threeCards{
-    justify-content: center;
-    /* background: #f4f4e6; */
-    display: inline-block;
-    width: 100%; 
+    .container {
+        width: 100%;
+
+    }
+
+
+    .threeCards {
+        justify-content: center;
+        /* background: #f4f4e6; */
+        display: inline-block;
+        width: 100%;
 
 
 
-    
-}
 
-.cardz{
-    border-bottom: #ffffff solid 0px;
-    /* background:#e7c6cf; */
-    width: 600px; 
-    height: 400px;
-    margin: 20px
-}
+    }
 
-#card1{
-float: left;
-}
-#card2{
-float: right;
-}
-#card3{
-float:left;
-}
+    .cardz {
+        border-bottom: #ffffff solid 0px;
+        /* background:#e7c6cf; */
+        width: 600px;
+        height: 400px;
+        margin: 20px
+    }
 
+    #card1 {
+        float: left;
+    }
+
+    #card2 {
+        float: right;
+    }
+
+    #card3 {
+        float: left;
+    }
 </style>
+
 <body>
     <div id="headertext" class="jumbotron jumbotron-fluid display-4">
-            <div class="image-container">
-                    <div class="text"> Deisha Flowers-Glotz</div>
-                  </div>
-
+        <div class="image-container">
+            <div class="text"> Deisha Flowers-Glotz</div>
+        </div>
+        <div class="dotstyle dotstyle-fillup">
+            <ul>
+                <li class="current"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </div>
     <div class="container">
         <div class="row threeCards">
@@ -84,8 +95,8 @@ float:left;
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-6">NAV 
-                                
+                            <div class="col-md-6">NAV
+
                             </div>
                             <div class="col-md-6"> RESUME</div>
                         </div>
@@ -94,9 +105,19 @@ float:left;
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.
                             </div>
                         </div>
                     </div>
@@ -104,7 +125,8 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             </div>
         </div>
 
-        <a id="INSERT_YOUR_OBJECT_NAME_HERE">The object you want to link to.</a>
+        <a id="hypertop">GO TO PORTFOLIO</a>
+        <a href="#hypertop">ARROW DOWN >>>>>.</a>
 
         <div class="row threeCards">
             <div class="col-md-12  cardz" id="card2">
@@ -119,9 +141,19 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.
                             </div>
                         </div>
                     </div>
@@ -129,10 +161,11 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             </div>
         </div>
 
-<a id="INSERT_YOUR_OBJECT_NAME_HERE">The object you want to link to.</a>
+        <a id="next1">The object you want to link to.</a>
+        <a href="#hyperbottom">ARROW DOWN >>>>>.</a>
 
         <div class="row threeCards">
-            <div class="col-md-12  cardz"  id="card3">
+            <div class="col-md-12  cardz" id="card3">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
@@ -144,9 +177,19 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+                                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                                are also reproduced in their exact original form, accompanied by English versions from
+                                the 1914 translation by H. Rackham.
                             </div>
                         </div>
                     </div>
@@ -154,10 +197,12 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
             </div>
         </div>
 
-<a id="INSERT_YOUR_OBJECT_NAME_HERE"> The object you want to link to.</a>
+        <a id="hyperbottom"> The object you want to link to.</a>
+        <a href="#hypertop">ARROW UP >>>>>.</a>
 
-<footer> footer -  CONTACT LINKS https://icons8.com/icons/set/javascript </footer>
+        <footer> footer - CONTACT LINKS https://icons8.com/icons/set/javascript </footer>
     </div>
 </body>
+// nav via hyperlink https://blog.hubspot.com/marketing/jump-link-same-page
 
 </html>
