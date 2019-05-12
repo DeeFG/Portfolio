@@ -1,57 +1,76 @@
-body{
+body {
     /* background: #fae49e; */
     border: white 10px solid;
     width: 100%;
     height: 100%;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
-.jumbotron{
-    background: url("long.png");
-    background-repeat: no-repeat ;
+.jumbotron {
+    background: url("https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_960_720.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     height: 600px;
-    padding: px
- 
+   
 }
-#headertext{
+#headertext {
     text-align: center;
     margin: 0 auto;
-    
 }
-
-
-.container{
+.container {
     width: 100%;
-
 }
-
-
-.threeCards{
+.threeCards {
     justify-content: center;
-    /* background: #f4f4e6; */
     display: inline-block;
-    width: 100%; 
-
-
-
-    
+    width: 100%;
+    height: 100%;
+    background: pink;
 }
-
-.cardz{
+.cardz {
     border-bottom: #ffffff solid 0px;
-    background:#e7c6cf;
-    width: 600px; 
+    /* background:#e7c6cf; */
+    width: 600px;
     height: 400px;
     margin: 20px
 }
-
-#card1{
+#card1 {
+    float: left;
+}
+#card2 {
+    float: right;
+}
+#card3 {
+    float: left;
+}
+.dotstyle ul {
+position: relative;
+display: inline-block;
+margin: 0;
+padding: 0;
+list-style: none;
+cursor: default;
+}
+.dotstyle li {
+position: relative;
+display: block;
 float: left;
+margin: 0 16px;
+width: 16px;
+height: 16px;
+cursor: pointer;
 }
-#card2{
-float: right;
+.dotstyle li a {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+outline: none;
+border-radius: 50%;
+background-color: #fff;
+background-color: red;
+text-indent: -999em;
+cursor: pointer; /* make the text accessible to screen readers */
+position: absolute;
 }
-#card3{
-float:left;
-}
+
