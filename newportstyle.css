@@ -17,9 +17,9 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-.container {
+/* .container {
     width: 100%;
-}
+} */
 .threeCards {
     justify-content: center;
     display: inline-block;
@@ -31,15 +31,17 @@ body {
 .cardz {
     border-bottom: #ffffff solid 0px;
     /* background:#e7c6cf; */
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 500px;
     margin: 20px
 }
 #card1 {
     float: left;
+    text-align: left;
 }
 #card2 {
     float: right;
+    text-align: right;
 }
 #card3 {
     float: left;
@@ -69,7 +71,7 @@ height: 100%;
 outline: none;
 border-radius: 50%;
 background-color: #fff;
-background-color: red;
+background-color:palevioletred;
 text-indent: -999em;
 cursor: pointer; /* make the text accessible to screen readers */
 position: absolute;
@@ -77,7 +79,7 @@ position: absolute;
 
 .div1{
   /* The image used */
-  background-image: url("images/coder-connection-daylight-225767.jpg");
+  background-image: url("images/cellphone-communication-device-594452.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
@@ -87,4 +89,12 @@ position: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#contact{
+font-size: 180px;
+float: left;
+}
+form{
+    font-size: 30px;
+    
 }
