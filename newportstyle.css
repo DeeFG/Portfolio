@@ -7,7 +7,7 @@ body {
     padding: 0px;
 }
 .jumbotron {
-    background: url("https://cdn.pixabay.com/photo/2014/05/02/21/49/home-office-336373_960_720.jpg");
+    background: url("images/coder-connection-daylight-225767.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 600px;
@@ -25,7 +25,8 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: pink;
+   
+    
 }
 .cardz {
     border-bottom: #ffffff solid 0px;
@@ -74,3 +75,16 @@ cursor: pointer; /* make the text accessible to screen readers */
 position: absolute;
 }
 
+.div1{
+  /* The image used */
+  background-image: url("images/coder-connection-daylight-225767.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
