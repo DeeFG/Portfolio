@@ -11,8 +11,8 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.jumbotron {
- background: url("images/apple-background-clean-399160.jpg"); */
+.jumbotron {    
+    background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,12 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+.imgport{
+    width: 200px;
+    height: 200px;
 
+}
+.
 
 /* ----------------------Navigation Dots---------------- */
 .dotstyle ul {
@@ -89,7 +94,7 @@ body {
 
 .div1{
   /* The image used */
-  background-image: url("images/cellphone-communication-device-594452.jpg");
+  background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 
   /* Set a specific height */
   min-height: 800px; 
@@ -102,42 +107,14 @@ body {
   margin-bottom: 20px;
 }
 
-.div2{
 
-/* The image used */
-background-image: url("https://images.pexels.com/photos/1585710/pexels-photo-1585710.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 
-/* Set a specific height */
-min-height: 800px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin-bottom: 20px;
-}
-
-.div3{
-
-    /* The image used */
-    background-image: url("images/apple-background-clean-399160.jpg");
-    
-    /* Set a specific height */
-    min-height: 800px; 
-    
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 20px;
-    }
 
 form{
     font-size: 30px;
     
 }
+
 
 
 
@@ -211,7 +188,7 @@ form{
   width: 100%;
   padding: 5%;
   box-sizing:border-box;
-  background-color: rgba(0, 128, 128, 0.8);
+  background-color: rgba(22, 23, 23, 0.8);
   font-weight: 300;
   -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
           transition:          transform .2s ease-out, opacity .3s ease-out;
@@ -304,4 +281,9 @@ form{
     #hexGrid {
         font-size: 13px;
     }
+}
+
+footer{
+    background: #ffffff;
+    text-align: center;
 }
