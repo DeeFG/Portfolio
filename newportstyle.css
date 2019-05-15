@@ -61,6 +61,10 @@ body {
     cursor: pointer; /* make the text accessible to screen readers */
     position: absolute;
     }
+.profilepic{
+    height: 200px;
+    width: 200px;
+}
 
 
 
