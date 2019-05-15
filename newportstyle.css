@@ -10,6 +10,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-family: 'Baloo Bhai', cursive;
 }
 .jumbotron {    
     background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -20,12 +21,13 @@ body {
     margin-bottom: 20px;
 }
 #headertext {
-    text-align: center;
+    text-align: right;
     margin: 0 auto;
 }
-.imgport{
-    width: 200px;
-    height: 200px;
+#profilepic{
+    width: 300px;
+    height: 550px;
+    border:  solid rgb(29, 13, 13) 5px;
 
 }
 .
@@ -101,7 +103,7 @@ body {
   background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 
   /* Set a specific height */
-  min-height: 800px; 
+  min-height: 1000px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -112,16 +114,9 @@ body {
 }
 
 
-
-
 form{
     font-size: 30px;
-    
 }
-
-
-
-
 
 /* ----------------------hexago for portfolio---------------- */
 
@@ -130,6 +125,7 @@ form{
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+  height: 800px;
   margin: 0 auto;
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
