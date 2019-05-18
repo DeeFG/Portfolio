@@ -1,5 +1,3 @@
-This is a updated profile for my portfoloio, not done by using class template
+This is a updated profile for my portfoloio
 
-Hexagon picture template credited to : 
-
-https://github.com/ericweger/hexsite
+Hexagon picture template credited to : https://github.com/ericweger/hexsite
