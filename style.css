@@ -37,7 +37,7 @@ max-height: 710px;
 
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   z-index: 99;
 }
 
@@ -81,7 +81,7 @@ max-height: 710px;
   text-align:right;
 }
 #profilepic{
-  width: 60%;
+  width: 50%;
   border:  solid rgb(29, 13, 13) 5px;
   align-content: center;
   align-items: center;
@@ -106,6 +106,12 @@ text-align: center;
 .threeCards {
   justify-content: center;
   display: block;
+}
+#enter{
+  color: black;
+  
+  
+padding: 10px;
 }
 
 
@@ -225,7 +231,7 @@ flex-wrap: wrap;
 width: 90%;
 height: 800px;
 margin: 0 auto;
-overflow: hidden;
+overflow: scroll;
 font-family: 'Raleway', sans-serif;
 font-size: 15px;
 list-style-type: none;
