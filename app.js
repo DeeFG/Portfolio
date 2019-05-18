@@ -11,7 +11,7 @@ window.onload = function () {
       $("#start").hide();
       $(".threeCards").show();
       $("#navbar").show();
-      $("footer").hide();
+      $("footer").show();
 
       
   });
