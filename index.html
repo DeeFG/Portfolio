@@ -13,10 +13,8 @@
     <title>Portfolio</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div  class="jumbotron  display-4" id="start">
-
-
         <div class="image-container div1" >
             <div class="text" id="headertext"> Deisha </div>
             <div class="text" id="headertext">Flowers-Glotz</div>
@@ -31,12 +29,21 @@
             </div>
         </div>
     </div>
+<!-- entry  -->
+<div id="navbar">
+<br>
+    <a href="#aboutme" data-toggle="tooltip" title="About Me">About Me</a>
+    <a href="#Highlights" data-toggle="tooltip" title="Highlights">Highlights</a>
+    <a href="#contact" data-toggle="tooltip" title="Contact Me">Contact</a>
+<br>
+</div>
 
     <div class="row threeCards div1">
+        <br>
         <div class="col-md-12  cardz" id="card3">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/profileimg.png" id="profilepic">
+                    <img src="icons/profileimg.png" class="img-thumbnail"  id="profilepic">
                 </div>
                 <div class="col-md-6" id="aboutme"> <br><br>
                     <h1>About Me</h1>
@@ -188,8 +195,11 @@
         &copy; DeeFG
     </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="app.js"></script>
+
 </body>
 
 </html>
