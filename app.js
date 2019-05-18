@@ -5,11 +5,14 @@ window.onload = function () {
   $("#start").show();
   $(".threeCards").hide();
   $("#navbar").hide();
+  $("footer").show();
 
   $(document).on("click", "#start", function () {
       $("#start").hide();
       $(".threeCards").show();
       $("#navbar").show();
+      $("footer").hide();
+
       
   });
 

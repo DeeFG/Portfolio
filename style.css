@@ -19,6 +19,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+  max-height: 720px;
 
 }
 
@@ -34,6 +36,7 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #333;
+  z-index: 99;
 }
 
 #navbar a {
@@ -105,7 +108,7 @@ text-align: center;
 
 .div1{
 /* The image used */
-background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+background-image: url("images/plant.pexel.jpeg");
 
 /* Set a specific height */
 min-height: 1000px; 
@@ -118,13 +121,10 @@ background-size: cover;
 margin-bottom: 20px;
 }
 
-/* https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 */
-
 
 .div2{ 
 /* The image used */
-background-image: url("https://images.pexels.com/photos/2123430/pexels-photo-2123430.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+background-image: url("images/plant.pexel.jpeg");
 
 /* Set a specific height */
 min-height: 1000px; 
