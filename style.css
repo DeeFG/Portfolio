@@ -239,6 +239,10 @@ list-style-type: none;
 
 }
 
+ #hexGrid::-webkit-scrollbar { 
+                display: none; 
+            } 
+
 .hex {
 position: relative;
 visibility:hidden;
