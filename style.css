@@ -33,8 +33,6 @@ max-height: 710px;
 }
 
 
-
-
 #navbar {
   overflow: hidden;
   background-color: black;
@@ -301,6 +299,7 @@ box-sizing:border-box;
 color:white;
 background-color: black;
 font-weight: 300;
+font-size:12px
 -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
         transition:          transform .2s ease-out, opacity .3s ease-out;
 }
