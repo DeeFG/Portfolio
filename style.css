@@ -33,8 +33,6 @@ max-height: 710px;
 }
 
 
-
-
 #navbar {
   overflow: hidden;
   background-color: black;
@@ -234,10 +232,14 @@ height: 800px;
 margin: 0 auto;
 overflow: scroll;
 font-family: 'Raleway', sans-serif;
-font-size: 15px;
+font-size: 10px;
 list-style-type: none;
 
 }
+
+ #hexGrid::-webkit-scrollbar { 
+                display: none; 
+            } 
 
 .hex {
 position: relative;
@@ -297,6 +299,7 @@ box-sizing:border-box;
 color:white;
 background-color: black;
 font-weight: 300;
+font-size: 16px;
 -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
         transition:          transform .2s ease-out, opacity .3s ease-out;
 }
@@ -320,6 +323,7 @@ border-bottom: 1px solid #fff;
 }
 .hex p {
 top: 50%;
+font-size: 14px;
 padding-bottom:50%;
 -webkit-transform:translate3d(0,100%,0);
     -ms-transform:translate3d(0,100%,0);
