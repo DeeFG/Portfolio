@@ -15,7 +15,7 @@ body {
 }
 
 .jumbotron {    
-  background-image: url("https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("Assetts/images/adi-goldstein-671017-unsplash.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,6 +25,16 @@ body {
   border-radius: 5px black;
 max-height: 710px;
 
+}
+#start{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border: #f2f2f2 solid 20px;
+  border-radius: 5px black;
+max-height: 710px;
 }
 
 
@@ -93,8 +103,11 @@ p{
 #aboutme{
 text-align: center;
 
-}
+} 
 #Highlights{
+text-align: center;
+}
+#githubProjects{
 text-align: center;
 }
 #contact{
@@ -117,7 +130,7 @@ padding: 10px;
 
 .div1{
 /* The image used */
-background-image: url("images/plant.pexel.jpeg");
+background-image: url("Assetts/images/buttons-flatlay-keyboard.jpg");
 
 /* Set a specific height */
 min-height: 1000px; 
@@ -133,7 +146,7 @@ margin-bottom: 20px;
 
 .div2{ 
 /* The image used */
-background-image: url("images/plant.pexel.jpeg");
+background-image: url("Assetts/images/buttons-flatlay-keyboard.jpg");
 
 /* Set a specific height */
 min-height: 1000px; 
@@ -217,7 +230,11 @@ form{
   }
 
 
+.contactimages {
 
+  margin-right: 30px;
+  
+}
 
 
 
