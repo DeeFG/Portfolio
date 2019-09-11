@@ -75,13 +75,13 @@ let resumeData = {
     {
       "name":"Fast Blood",
       "description":"Keeping Doctors/Nurses updated on patient product and testing availability",
-      "imgurl":"./public/images/portfolio/modals/FASTBLOOD.png",
+      "imgurl":"https://infinite-ridge-56322.herokuapp.com/",
       "url":"https://infinite-ridge-56322.herokuapp.com/"
     },
     {
       "name":"NowYou!",
       "description":"Assisting low functioing Autism",
-      "imgurl":"",
+      "imgurl":"https://ayang726.github.io/Project-1/",
       "url":"https://ayang726.github.io/Project-1/",
     },
     {
