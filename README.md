@@ -1,4 +1,4 @@
-# Deisha Flowers-Glotz  Full Stack Developer :octocat:
+# Deisha : Full Stack Developer :octocat:
 
 ## [ :arrow_forward: Get to know Me and my Work :bowtie:](https://deefg.github.io/Portfolio/)
 
