@@ -1,8 +1,8 @@
-# :white_flower: Deisha Flowers-Glotz :octocat: Full Stack Developer :white_flower:
+# Deisha Flowers-Glotz  Full Stack Developer :octocat:
 
 ## [ :arrow_forward: Get to know Me and my Work :bowtie:](https://deefg.github.io/Portfolio/)
 
-### Portfolio Website :floppy_disk: Built with: HTML, CSS , JavaScript, React.js
+### Portfolio Website   :floppy_disk:   HTML, CSS , JavaScript, React.js
 
 ## Technology I know :computer:
 * HTML
