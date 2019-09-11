@@ -2,7 +2,7 @@
 
 ## [ :arrow_forward: Get tp know Me and my Work :bowtie:](https://deefg.github.io/Portfolio/)
 
-###Portfolio  :floppy_disk:
+### Portfolio  :floppy_disk:
 #### This is a webpage meant to get to know me and to showcase my work as a Full Stack Developer
 #### My portfolio range from simple Javascript games :video_game: to full stack MERN web applications :iphone:
 
