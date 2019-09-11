@@ -1,6 +1,6 @@
 # Full Stack Developer :octocat:
 
-## [ :arrow_right: Get to know Me and my Work :arrow_left:](https://deefg.github.io/Portfolio/)
+## [ :arrow_right: Get to know me and my work :arrow_left:](https://deefg.github.io/Portfolio/)
 
 ### Portfolio Website   :floppy_disk:   HTML, CSS , JavaScript, React.js
 
