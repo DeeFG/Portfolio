@@ -1,26 +1,21 @@
 let resumeData = {
-  "imagebaseurl":"GIT HUB LINK",
+  "imagebaseurl":"https://deefg.github.io/Portfolio/",
   "name": "Deisha Flowers-Glotz",
   "role": "Full Stack Developer",
   "linkedinId":"Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  "roleDescription": "Full Stack Web Developer with a healthcare background who is excited to continuously grow programming skills by building full-stack applications with functionality and social impact. ",
+  "roleDescription": "with a healthcare background who is excited to continuously grow programming skills by building full-stack applications with functionality and social impact. ",
   "socialLinks":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/",
+        "url":"https://www.linkedin.com/in/deisha-flowers-glotz-69b00070",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"http://github.com/",
+        "url":"https://github.com/DeeFG",
         "className":"fa fa-github"
       },
-      {
-        "name":"skype",
-        "url":"http://twitter.com/",
-        "className":"fa fa-twitter"
-      }
     ],
   "aboutme":"After earning a Bachelors in Science and MBA in Healthcare Informatics, I successfully completed certification in Full Stack Development from the Harvard Extension School, with newly developed skills in JavaScript, CSS, React.js, Mongo, mySQL, and responsive web design..",
   "address":"Boston, MA",
@@ -43,18 +38,16 @@ let resumeData = {
   ],
   "work":[
     {
-      "CompanyName":"Tufts medical Center",
+      "CompanyName":"Tufts Medical Center",
       "specialization":"Transfusion Medical Technologist",
       "MonthOfLeaving":"Aug",
       "YearOfLeaving":"2017",
-      "Achievements":"Some Achievements"
     },
     {
       "CompanyName":"Welforce",
       "specialization":"Senior Medical Technologist",
       "MonthOfLeaving":"Sept",
       "YearOfLeaving":"2013",
-      "Achievements":"Some Achievements"
     }
   ],
   "skillsDescription":"",
@@ -80,36 +73,56 @@ let resumeData = {
   ],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
+      "name":"Fast Blood",
+      "description":"Keeping Doctors/Nurses updated on patient product and testing availability",
+      "imgurl":"./public/images/portfolio/modals/FASTBLOOD.png",
+      "url":"https://infinite-ridge-56322.herokuapp.com/"
     },
     {
-      "name":"project2",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/project.jpg"
+      "name":"NowYou!",
+      "description":"Assisting low functioing Autism",
+      "imgurl":"",
+      "url":"https://ayang726.github.io/Project-1/",
     },
     {
-      "name":"project3",
+      "name":"Math Match",
       "description":"mobileapp",  
-      "imgurl":"images/portfolio/project2.png"
+      "imgurl":"",
+      "url":"https://deefg.github.io/unit-4-game/",
     },
-    {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/phone.jpg"
-    }
+
   ],
   "testimonials":[
     {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
+      "description":" NowYou! Most Aww-Inspiring Project",
+      "name":"Harvard Trilogy Team"
     },
     {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    }
-  ]
+      "description":"You were able to demonstrate the value of your application and help non-medical teams understand how helpful this app is",
+      "name":" Mark Thompson Senior Software Engineer"
+    },
+    {
+      "description":"The code looks very well thought and structured ...the UI is nice and clean!",
+      "name":"Roxana Milea Software Engineer"
+      
+    },
+
+
+
+
+
+  ],
+  "skillicon":[
+    {
+      "className":"fab fa-html5"
+    },
+    {
+      
+    },
+    {
+      
+    },
+  ],
 }
 
 export default resumeData
