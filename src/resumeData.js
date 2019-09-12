@@ -75,20 +75,26 @@ let resumeData = {
     {
       "name":"Fast Blood",
       "description":"Keeping Doctors/Nurses updated on patient product and testing availability",
-      "imgurl":"https://infinite-ridge-56322.herokuapp.com/",
+      "imgurl":"/images/portfolio/modals/FASTBLOOD.png",
       "url":"https://infinite-ridge-56322.herokuapp.com/"
     },
     {
       "name":"NowYou!",
       "description":"Assisting low functioing Autism",
-      "imgurl":"https://ayang726.github.io/Project-1/",
+      "imgurl":"/images/portfolio/modals/nowyou2.png",
       "url":"https://ayang726.github.io/Project-1/",
     },
     {
       "name":"Math Match",
       "description":"mobileapp",  
-      "imgurl":"",
+      "imgurl":"/images/portfolio/modals/mathmatch.png",
       "url":"https://deefg.github.io/unit-4-game/",
+    },
+    {
+      "name":"Click Game",
+      "description":"mobileapp",  
+      "imgurl":"/images/portfolio/modals/clickyGame.png",
+      "url":"",
     },
 
   ],
