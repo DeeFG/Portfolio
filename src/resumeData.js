@@ -95,7 +95,7 @@ let resumeData = {
   "testimonials":[
     {
       "description":" NowYou! Most Aww-Inspiring Project",
-      "name":"Harvard Trilogy Team"
+      "name":"Harvard Extention School Staff"
     },
     {
       "description":"You were able to demonstrate the value of your application and help non-medical teams understand how helpful this app is",
