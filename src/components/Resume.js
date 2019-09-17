@@ -33,9 +33,9 @@ export default  class Resume extends Component {
          </div>
         <div className="row work">
             <div className="three columns header-col">
+              
                <h1><span>Work</span></h1>
             </div>
-
             <div className="nine columns main-col">
               {
                 resumeData.work && resumeData.work.map((item) => {
@@ -50,13 +50,14 @@ export default  class Resume extends Component {
                           {item.Achievements}
                           </p>
                        </div>
-
                     </div>
 
                   )
                 })
               }
             </div> 
+
+            <a href="https://drive.google.com/file/d/1oBoykRWf5Oq6MyjXq0cGsdQqx8jfoF7C/view?usp=sharing" rel="opener" target="_blank"> Click here for my detailed resume</a>
          </div>
 
 
@@ -71,6 +72,11 @@ export default  class Resume extends Component {
                <p>
                {resumeData.skillsDescription}
                </p>
+
+
+
+
+
 
    				<div className="bars">
 

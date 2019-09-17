@@ -17,7 +17,7 @@ let resumeData = {
         "className":"fa fa-github"
       },
     ],
-  "aboutme":"After earning a Bachelors in Science and MBA in Healthcare Informatics, I successfully completed certification in Full Stack Development from the Harvard Extension School, with newly developed skills in JavaScript, CSS, React.js, Mongo, mySQL, and responsive web design..",
+  "aboutme":"After earning a Bachelors in Science and MBA in Healthcare Informatics, I successfully completed certification in Full Stack Development from the Harvard Extension School. Over the past year I have been  self taught  and the Harvard  courses have given me the extra  guidance and education to learn new programming languages as well as  sharpen my technical skills. I am excited to leverage these skills in the future as part of a fast-paced, quality-driven team in order to build better web applications.",
   "address":"Boston, MA",
   "website":"",
   "education":[
@@ -33,7 +33,7 @@ let resumeData = {
       "specialization":"MBA - Health Informatics",
       "MonthOfPassing":"May",
       "YearOfPassing":"2016",
-      "Achievements":"Some Achievements"
+      "Achievements":""
     }
   ],
   "work":[
@@ -42,12 +42,14 @@ let resumeData = {
       "specialization":"Transfusion Medical Technologist",
       "MonthOfLeaving":"Aug",
       "YearOfLeaving":"2017",
+      "Achievments":""
     },
     {
       "CompanyName":"Welforce",
       "specialization":"Senior Medical Technologist",
       "MonthOfLeaving":"Sept",
       "YearOfLeaving":"2013",
+      "Achievements":""
     }
   ],
   "skillsDescription":"",
@@ -72,30 +74,32 @@ let resumeData = {
     },
   ],
   "portfolio":[
-    {
-      "name":"Fast Blood",
-      "description":"Keeping Doctors/Nurses updated on patient product and testing availability",
-      "imgurl":"/images/portfolio/modals/FASTBLOOD.png",
-      "url":"https://infinite-ridge-56322.herokuapp.com/"
-    },
-    {
+      {
       "name":"NowYou!",
-      "description":"Assisting low functioing Autism",
+      "description":"Group Project : Assisting low functioing Autism",
       "imgurl":"/images/portfolio/modals/nowyou2.png",
       "url":"https://ayang726.github.io/Project-1/",
+    }, 
+    {
+      "name":"Fast Blood",
+      "description":"Keeping Doctors/Nurses updated on patient product and testing availability",  
+      "imgurl":"/images/portfolio/modals/fastblood.png",
+      "url":"https://myapp-fastblood.herokuapp.com/",
+    }, 
+    {
+      "name":"Fast BloodV2.1",
+      "description":"Keeping Doctors/Nurses updated on patient product and testing availability",
+      "imgurl":"/images/portfolio/modals/fastblood2.png",
+      "url":"https://infinite-ridge-56322.herokuapp.com/"
     },
+ 
     {
       "name":"Math Match",
-      "description":"mobileapp",  
+      "description":"Math Game",  
       "imgurl":"/images/portfolio/modals/mathmatch.png",
       "url":"https://deefg.github.io/unit-4-game/",
     },
-    {
-      "name":"Click Game",
-      "description":"mobileapp",  
-      "imgurl":"/images/portfolio/modals/clickyGame.png",
-      "url":"",
-    },
+
 
   ],
   "testimonials":[
@@ -109,13 +113,8 @@ let resumeData = {
     },
     {
       "description":"The code looks very well thought and structured ...the UI is nice and clean!",
-      "name":"Roxana Milea Software Engineer"
-      
+      "name":"Roxana Milea Software Engineer" 
     },
-
-
-
-
 
   ],
   "skillicon":[

@@ -1,10 +1,10 @@
 /*
+https://colors.muz.li/palette/de86a2/9b5e71/ffe6ee/94de86/679b5e
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
 *   url: styleshout.com
 *   03-18-2014
 =====================================================================
-
    TOC:
    a. General Styles
    b. Header Styles
@@ -15,7 +15,6 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
-
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -59,21 +58,21 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #681C2F;
+   color: #9b5e71;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 8px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #681C2F;
+   color: #9b5e71;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #681C2F;
+   color: #9b5e71;
 }
 header .banner-text hr {
    width: 60%;
@@ -94,8 +93,8 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #681C2F; }
-header .social li a:hover { color: pink; }
+header .social li a { color:#303030; }
+header .social li a:hover { color: #de86a2; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -103,13 +102,13 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #681C2F;
+   color: #de86a2;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
+   /* color: #fff; */
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -117,7 +116,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: pink }
+header .scrolldown a:hover { color: #de86a2 }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -140,7 +139,7 @@ header .scrolldown a:hover { color: pink }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #CABFBF; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -169,7 +168,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #681C2F;
+   color: #9b5e71;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -194,7 +193,7 @@ ul#nav li.current a { color: green; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: pink; }
+#about a:hover, #about a:focus { color: #de86a2; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -242,7 +241,7 @@ ul#nav li.current a { color: green; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: pink; }
+#resume a, #resume a:visited  { color: #de86a2; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -251,7 +250,7 @@ ul#nav li.current a { color: green; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #681C2F;
+   border-bottom: 3px solid #9b5e71;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -661,7 +660,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(/images/sunflowers.jpg) no-repeat center center;
+   background: #9b5e71 url(./images/sunflowers.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -817,7 +816,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #681C2F; }
+#contact a, #contact a:visited  { color: #9b5e71; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -878,7 +877,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #681C2F;
+	background-color: #9b5e71;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -897,7 +896,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #681C2F;
+	color: #9b5e71;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -909,7 +908,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #681C2F; }
+#message-success { color: #9b5e71; }
 
 #message-warning i,
 #message-success i {
@@ -995,7 +994,6 @@ footer .social-links li {
     margin-left: 42px;
     color: #F06000;
 }
-
 footer .social-links li:first-child { margin-left: 0; }
 
 /* Go To Top Button */
@@ -1011,7 +1009,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #de86a2;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1024,5 +1022,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
-
+#go-top a:hover { background-color: pink; }
