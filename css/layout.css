@@ -5,7 +5,6 @@ https://colors.muz.li/palette/de86a2/9b5e71/ffe6ee/94de86/679b5e
 *   url: styleshout.com
 *   03-18-2014
 =====================================================================
-
    TOC:
    a. General Styles
    b. Header Styles
@@ -16,7 +15,6 @@ https://colors.muz.li/palette/de86a2/9b5e71/ffe6ee/94de86/679b5e
    g. Testimonials Section
    h. Contact Section
    i. Footer
-
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -95,7 +93,7 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #9b5e71; }
+header .social li a { color:#303030; }
 header .social li a:hover { color: #de86a2; }
 
 /* scrolldown link */
@@ -104,12 +102,13 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #9b5e71;
+   color: #de86a2;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
+   /* color: #fff; */
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -140,7 +139,7 @@ header .scrolldown a:hover { color: #de86a2 }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #CABFBF; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -1010,7 +1009,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: pink;
+	background-color: #de86a2;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1023,5 +1022,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
-
+#go-top a:hover { background-color: pink; }
